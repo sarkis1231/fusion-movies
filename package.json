@@ -1,0 +1,35 @@
+{
+  "name": "fusion-movies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "fusion": "fusion",
+    "start": "fusion start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@arc-fusion/cli": "^2.0.5"
+  },
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "commander": "^5.1.0",
+    "concat-map": "^0.0.1",
+    "dotenv": "^6.2.0",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.1.7",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "minimatch": "^3.0.4",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "sprintf-js": "^1.0.3",
+    "wrappy": "^1.0.2",
+    "yamljs": "^0.3.0"
+  },
+  "keywords": [],
+  "description": ""
+}
