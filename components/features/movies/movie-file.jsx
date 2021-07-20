@@ -7,8 +7,11 @@ class MovieDetail extends Component {
     render() {
         console.log(this.props)
         return(
-            <div>
+            <div className="movie-detail col-sm-12 col-md-18">
                 <h1>Jurassic Park</h1>
+                <p><strong>Director:</strong> Steven Spielberg</p>
+                <p><strong>Actors:</strong>Sam Nail, Laura Dern</p>
+                <p><strong>Plot:</strong>Lorem Ipsum</p>
             </div>
         )
     }
