@@ -12,7 +12,7 @@ export default ({
   <html>
     <head>
       <title>Fusion Article</title>
-      <MetaTags />
+      <MetaTags name="title"/>
       <Libs />
       <CssLinks />
       <link rel='icon' type='image/x-icon' href={deployment(`${contextPath}/resources/favicon.ico`)} />
